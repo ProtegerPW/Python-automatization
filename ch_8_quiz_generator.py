@@ -12,11 +12,11 @@ capitals = {'Alabama': 'Montgomery', 'Alaska': 'Juneau', 'Arizona': 'Phoenix', '
             'Tennessee': 'Nashville', 'Texas': 'Austin', 'Utah': 'Salt Lake City', 'Vermont': 'Montpelier', 'Virginia': 'Richmond', 'Washington': 'Olympia',
             'West Virginia': 'Charleston', 'Wisconsin': 'Madison', 'Wyoming': 'Cheyenne'}
 
-if os.path.isdir("./folderWithTests"):
-    os.chdir("./folderWithTests")
+if os.path.isdir("./ch_8_quiz_generator"):
+    os.chdir("./ch_8_quiz_generator")
 else:
-    os.makedirs("./folderWithTests")
-    os.chdir("./folderWithTests")
+    os.makedirs("./ch_8_quiz_generator")
+    os.chdir("./ch_8_quiz_generator")
 
 
 for quizNum in range(35):
