@@ -1,4 +1,7 @@
 #! /usr/bin/python3
+#Usage: Program that will replace all keywords asking each time about user answer
+#       and then saved to file with "_formatted" suffix
+#       ./ch_8_mad_libs.py <path to file> 
 
 keywords = ["ADJECTIVE", "NOUN", "ADVERB", "VERB"]
 
